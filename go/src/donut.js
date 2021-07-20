@@ -24,20 +24,25 @@ const data = {
 
 function Donutchart() {
   return (
-    <div>
+    <container className ="donut-container">
+    
+        
     <span>
         <h3>data</h3>
         <Doughnut data={data} />
     </span>
+    
     <span>
     <h3>data</h3>
     <Doughnut data={data} />
     </span>
+    
     <span>
         <h3>data</h3>
         <Doughnut data={data} />
     </span>
-    </div>
+    
+    </container>
   );
 }
 export default Donutchart;

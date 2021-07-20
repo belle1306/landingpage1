@@ -96,6 +96,7 @@ const Form = props => {
          value={user.message}
          type="textarea" 
          maxLength = "500"
+         width = "100"
          placeholder="type your message here"
        />
        

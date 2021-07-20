@@ -8,22 +8,29 @@ import Header from './header';
 import Cards from './cards.js';
 import Footer from './footer.js';
 import Donutchart from './donut';
+//import Particles from 'react-particles-js';
+import Carouselslider from './carousel.js'
+//import Routes from './routes.js'
 
 
 
 const App = () => {
-  
+    
   return(
+      
         <container>
+            
         <div id='body'>
             
             <Header/>
+            
             <Buttons/>
             <Cards/>
+            <Carouselslider/>
             <Donutchart/>
             <Form/>
             <Footer/>
-           
+            {/* <Routes/> */}
         </div>
         </container>
     );

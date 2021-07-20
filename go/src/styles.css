@@ -74,9 +74,12 @@
   .contact-container  {
     flex-flow: column;
     padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
     display: flex;
     justify-content: space-between;
     width:80%;
+    height: 250px;
     
   }
   .div-title{
@@ -107,6 +110,10 @@
     display: flex;
     justify-content: space-between;
     width:80%;
+  }
+
+  .donut-container{
+    flex-flow: column;
   }
   
   .contact-form > div {
@@ -201,7 +208,7 @@
 
 .footer{
 
-  
+    
     width: 1918px;
     height: 310px;
     margin: 77px 0 0;
@@ -217,4 +224,7 @@
     background:linear-gradient(to bottom, turquoise 5%, #72b352 100%);
     text-align: center;
     justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 50px;
 }
